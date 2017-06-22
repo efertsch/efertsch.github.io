@@ -26,6 +26,9 @@ p.large {
   color: white;
   text-shadow: 2px 2px #000;
 }
+#brand:hover {
+  font-size: 30px;
+}
 a,
 a:hover,
 a:focus,
@@ -35,7 +38,6 @@ a.active {
 }
 a {
   color: #7c7979;
-  text-shadow: 2px 2px #000;
 }
 a:hover,
 a:focus,
@@ -120,8 +122,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 #gray-hover:hover {
-  background: #262728;
-  border-color: #262728;
+  background: #222222;
+  border-color: #222222;
 }
 
 .btn-xl:hover,
@@ -195,11 +197,14 @@ fieldset[disabled] .btn-xl.active {
   font-weight: 400;
   letter-spacing: 1px;
   color: white;
+
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #7c7979;
+  font-size: 20px;
+  color: white;
   outline: none;
+  text-shadow: 2px 2px #000;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
@@ -240,11 +245,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  /*background-image: url('../img/header-bg.jpg');*/
-/*  background-image: url("../img/sky.jpg");*/
     background-image: url("../img/patrick-tomasso-208114.jpg");
-  /*background-image: url("https://images7.alphacoders.com/364/364217.jpg");*/
-/*  background-image: url("http://7bna.net/images/black-background-image/black-background-image-5.jpg");*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -560,24 +561,21 @@ section h3.section-subheading {
     padding: 0 100px 20px 20px;
   }
 }
-.team-member {
+.about-me {
   text-align: center;
   margin-bottom: 50px;
 }
-.team-member img {
+.about-me img {
   margin: 0 auto;
   border: 7px solid white;
 }
-.team-member h4 {
+.about-me h4 {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
 }
-.team-member p {
+.about-me p {
   margin-top: 0;
-}
-aside.clients img {
-  margin: 50px auto;
 }
 section#contact {
   background-color: #222222;
@@ -647,13 +645,6 @@ footer {
   text-align: center;
 }
 footer span.copyright {
-  line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-transform: none;
-}
-footer ul.quicklinks {
-  margin-bottom: 0;
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
