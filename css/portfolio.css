@@ -132,7 +132,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #7c7979; 
+  background-color: #7c7979;
   border-color: #7c7979;
 }
 .btn-xl:active,
@@ -260,7 +260,7 @@ header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-#typed {
+header .hello {
   text-shadow: 2px 2px #000;
 }
 header .intro-text .intro-lead-in {
@@ -339,7 +339,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  
+
   background: rgba(124, 121, 121, 0.9);
   position: absolute;
   width: 100%;
@@ -769,4 +769,3 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #7c7979;
 }
-
